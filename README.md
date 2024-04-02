@@ -55,6 +55,25 @@
  #include <chrono>
 ```
 
+а вот небольшая шпоргалка вам в помощь чтоб повторить проверку на своем коде:
+```http
+#include <chrono> 
+
+int main()
+{
+    auto start = std::chrono::high_resolution_clock::now(); // запуск таймера
+
+    // ваш код
+
+    auto end = std::chrono::high_resolution_clock::now(); // Остановка таймера
+    std::chrono::duration<double> elapsed = end - start; // Высчитывание полученого времени
+
+    std::cout << "Elapsed time: " << elapsed.count() << " seconds" << std::endl; // выводит полученое время
+
+    return 0;
+}
+```
+
 а теперь пора узнать результаты:
 | вид  | время |
 | ------------- | ------------- |
