@@ -38,8 +38,11 @@
 
 А теперь мы хотим взять третий элемент, а чтоб открыть его нужно сначала обработать элементы которые находятся выше нужного элемента.
 ![step3](https://github.com/brainbreaker-2/Queue-Stack/blob/fea5c568065acbc47e9c78d65f20b03cebbf0e65/IMG/stack/free%203element.png)
-## Screenshots
+## Таблица
 
-![App Screenshot](https://github.com/brainbreaker-2/Queue-Stack/blob/fea5c568065acbc47e9c78d65f20b03cebbf0e65/IMG/queue/5element.png)
-
-
+| Структура данных | поля структуры | функция добавления | функция извлечения |
+| --- | --- | --- | --- |
+| очередь на массивах |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/537a9d629900858bee901908079ea87612ce744b/IMG/code/queue_array/%D0%BF%D0%BE%D0%BB%D1%8F.png) | ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/537a9d629900858bee901908079ea87612ce744b/IMG/code/queue_array/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/537a9d629900858bee901908079ea87612ce744b/IMG/code/queue_array/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) |
+| очередь на списках |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/queue_list/%D0%BF%D0%BE%D0%BB%D1%8F.png)| ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/queue_list/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/queue_list/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) |
+| стэк на массивах |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_array/%D0%BF%D0%BE%D0%BB%D1%8F.png) | ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_array/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_array/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) |
+| стэк на списках |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_list/%D0%BF%D0%BE%D0%BB%D1%8F.png)| ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_list/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_list/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) |
