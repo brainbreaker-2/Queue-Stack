@@ -14,13 +14,14 @@
 
 # Документация
 
-## А что такое очередь?
+##А что такое очередь? 
 
-qwerty
-[](https://linktodocumentation)
+Очередь можно встретить везде, в кино, в театре, или возле тележки с мороженым в жаркий летний день.
+У нас есть несколько элементов, обозначим их цифрами от 1 до 5
+![step1](https://github.com/brainbreaker-2/Queue-Stack/blob/fea5c568065acbc47e9c78d65f20b03cebbf0e65/IMG/queue/5element.png)
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/brainbreaker-2/Queue-Stack/blob/fea5c568065acbc47e9c78d65f20b03cebbf0e65/IMG/queue/5element.png)
 
