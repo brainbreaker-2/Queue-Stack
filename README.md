@@ -42,7 +42,23 @@
 
 | Структура данных | поля структуры | функция добавления | функция извлечения |
 | --- | --- | --- | --- |
-| очередь на массивах |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/537a9d629900858bee901908079ea87612ce744b/IMG/code/queue_array/%D0%BF%D0%BE%D0%BB%D1%8F.png) | ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/537a9d629900858bee901908079ea87612ce744b/IMG/code/queue_array/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/537a9d629900858bee901908079ea87612ce744b/IMG/code/queue_array/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) |
-| очередь на списках |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/queue_list/%D0%BF%D0%BE%D0%BB%D1%8F.png)| ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/queue_list/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/queue_list/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) |
-| стэк на массивах |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_array/%D0%BF%D0%BE%D0%BB%D1%8F.png) | ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_array/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_array/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) |
+| очередь на массивах |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/537a9d629900858bee901908079ea87612ce744b/IMG/code/queue_array/%D0%BF%D0%BE%D0%BB%D1%8F.png) | ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/537a9d629900858bee901908079ea87612ce744b/IMG/code/queue_array/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/537a9d629900858bee901908079ea87612ce744b/IMG/code/queue_array/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | 
+| очередь на списках |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/queue_list/%D0%BF%D0%BE%D0%BB%D1%8F.png)| ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/queue_list/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/queue_list/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | 
+| стэк на массивах |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_array/%D0%BF%D0%BE%D0%BB%D1%8F.png) | ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_array/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_array/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | 
 | стэк на списках |  ![pole](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_list/%D0%BF%D0%BE%D0%BB%D1%8F.png)| ![dob](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_list/%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) | ![izv](https://github.com/brainbreaker-2/Queue-Stack/blob/main/IMG/code/stack_list/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.png) |
+
+
+# Тест на время
+
+Тест на время будет проводится с целью узнать какой из вариантов самый быстрый, для этого мы будем использовать библиотеку <chrono> вы можете подключить её в ваш файл с помощью:
+```http
+ #include <chrono>
+```
+
+а теперь пора узнать результаты:
+| вид  | время |
+| ------------- | ------------- |
+| очередь(массив)  | 1.25e-07 сек  |
+| очередь(список)  | 1.52e-07 сек  |
+| стэк(массив)  | 1.33e-07 сек  |
+| стэк(список)  | 1.49e-07 сек  |
