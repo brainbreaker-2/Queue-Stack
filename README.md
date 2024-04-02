@@ -16,7 +16,7 @@
 
 ## А что такое очередь?
 
-
+qwerty
 [](https://linktodocumentation)
 
 
